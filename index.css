@@ -168,6 +168,26 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.head-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+  border-bottom: 3px dashed #C0C0C0;
+}
+.head-section nav a {
+  text-decoration: none;
+  padding: 0 2rem;
+  font-size: 1.8rem;
+  color: #212529;
+}
+.landing-section {
+  border-bottom: 3px dashed #C0C0C0;
+}
+.landing-section img {
+  padding-bottom: 2rem;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
